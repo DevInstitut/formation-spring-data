@@ -1,0 +1,693 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Spring ORM · Formation Spring Data</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Rossi Oddet">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="02-jpa.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01-introduction/">
+            
+                <a href="../01-introduction/">
+            
+                    
+                    Accès aux données
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02-jdbc/">
+            
+                <a href="../02-jdbc/">
+            
+                    
+                    Spring JDBC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02-jdbc/01-jdbc.html">
+            
+                <a href="../02-jdbc/01-jdbc.html">
+            
+                    
+                    Vous vous souvenez de JDBC ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02-jdbc/02-spring-jdbc.html">
+            
+                <a href="../02-jdbc/02-spring-jdbc.html">
+            
+                    
+                    Spring JDBC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../02-jdbc/03-maven.html">
+            
+                <a href="../02-jdbc/03-maven.html">
+            
+                    
+                    Dépendance Maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../02-jdbc/04-source-donnees.html">
+            
+                <a href="../02-jdbc/04-source-donnees.html">
+            
+                    
+                    Source de données
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../02-jdbc/05-jdbc-template.html">
+            
+                <a href="../02-jdbc/05-jdbc-template.html">
+            
+                    
+                    JdbcTemplate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../02-jdbc/06-rowmapper.html">
+            
+                <a href="../02-jdbc/06-rowmapper.html">
+            
+                    
+                    RowMapper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../02-jdbc/07-jdbc-template-query.html">
+            
+                <a href="../02-jdbc/07-jdbc-template-query.html">
+            
+                    
+                    JdbcTemplate (query)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../02-jdbc/08-row-callback-handler.html">
+            
+                <a href="../02-jdbc/08-row-callback-handler.html">
+            
+                    
+                    RowCallBackHandler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../02-jdbc/09-resultset-extractor.html">
+            
+                <a href="../02-jdbc/09-resultset-extractor.html">
+            
+                    
+                    ResultSetExtractor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../02-jdbc/10-lequel.html">
+            
+                <a href="../02-jdbc/10-lequel.html">
+            
+                    
+                    RowMapper, RowCallbackHandler, ResultSetExtractor ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../02-jdbc/11-modifier.html">
+            
+                <a href="../02-jdbc/11-modifier.html">
+            
+                    
+                    Insérer, mettre à jour, supprimer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../02-jdbc/99-tp.html">
+            
+                <a href="../02-jdbc/99-tp.html">
+            
+                    
+                    Travaux pratiques
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Spring ORM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="01-spring-orm.html">
+            
+                <a href="01-spring-orm.html">
+            
+                    
+                    Spring ORM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="02-jpa.html">
+            
+                <a href="02-jpa.html">
+            
+                    
+                    Spring ORM & JPA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="03-transaction.html">
+            
+                <a href="03-transaction.html">
+            
+                    
+                    Gestion des transactions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="04-persistence-context.html">
+            
+                <a href="04-persistence-context.html">
+            
+                    
+                    @PersistenceContext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="05-gestion-des-exceptions.html">
+            
+                <a href="05-gestion-des-exceptions.html">
+            
+                    
+                    Gestion des exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="06-propagation-des-exceptions.html">
+            
+                <a href="06-propagation-des-exceptions.html">
+            
+                    
+                    Propagation des exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="99-tp.html">
+            
+                <a href="99-tp.html">
+            
+                    
+                    Travaux pratiques
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04-spring-data/">
+            
+                <a href="../04-spring-data/">
+            
+                    
+                    Projet Spring Data
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../04-spring-data/01-data-commons/">
+            
+                <a href="../04-spring-data/01-data-commons/">
+            
+                    
+                    Spring Data Commons
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../04-spring-data/01-data-commons/01-dependance.html">
+            
+                <a href="../04-spring-data/01-data-commons/01-dependance.html">
+            
+                    
+                    Dépendance Maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../04-spring-data/01-data-commons/02-repository.html">
+            
+                <a href="../04-spring-data/01-data-commons/02-repository.html">
+            
+                    
+                    Interfaces Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../04-spring-data/02-data-jpa/">
+            
+                <a href="../04-spring-data/02-data-jpa/">
+            
+                    
+                    Spring Data JPA
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../04-spring-data/02-data-jpa/01-configuration.html">
+            
+                <a href="../04-spring-data/02-data-jpa/01-configuration.html">
+            
+                    
+                    Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../04-spring-data/02-data-jpa/01-jpa-repository.html">
+            
+                <a href="../04-spring-data/02-data-jpa/01-jpa-repository.html">
+            
+                    
+                    Jpa Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../04-spring-data/02-data-jpa/03-requete-dynamique.html">
+            
+                <a href="../04-spring-data/02-data-jpa/03-requete-dynamique.html">
+            
+                    
+                    Requêtes dynamiques
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../04-spring-data/02-data-jpa/04-jpql.html">
+            
+                <a href="../04-spring-data/02-data-jpa/04-jpql.html">
+            
+                    
+                    JPQL via @Query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../04-spring-data/02-data-jpa/99-tp.html">
+            
+                <a href="../04-spring-data/02-data-jpa/99-tp.html">
+            
+                    
+                    Travaux pratiques
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Spring ORM</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="spring-orm">Spring ORM</h1>
+<p>Spring ORM offre un support de :</p>
+<ul>
+<li>Hibernate</li>
+<li>Java Data Objects (JDO)</li>
+<li>Java Persistence API (JPA)</li>
+</ul>
+<p>Ce cours est centr&#xE9; sur le support de JPA.</p>
+<p>D&#xE9;pendance Maven :</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-orm<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Spring ORM">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="02-jpa.html" class="navigation navigation-next " aria-label="Next page: Spring ORM & JPA">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Spring ORM","level":"1.4.1","depth":2,"next":{"title":"Spring ORM & JPA","level":"1.4.2","depth":2,"path":"03-orm/02-jpa.md","ref":"03-orm/02-jpa.md","articles":[]},"previous":{"title":"Spring ORM","level":"1.4","depth":1,"path":"03-orm/README.md","ref":"03-orm/README.md","articles":[{"title":"Spring ORM","level":"1.4.1","depth":2,"path":"03-orm/01-spring-orm.md","ref":"03-orm/01-spring-orm.md","articles":[]},{"title":"Spring ORM & JPA","level":"1.4.2","depth":2,"path":"03-orm/02-jpa.md","ref":"03-orm/02-jpa.md","articles":[]},{"title":"Gestion des transactions","level":"1.4.3","depth":2,"path":"03-orm/03-transaction.md","ref":"03-orm/03-transaction.md","articles":[]},{"title":"@PersistenceContext","level":"1.4.4","depth":2,"path":"03-orm/04-persistence-context.md","ref":"03-orm/04-persistence-context.md","articles":[]},{"title":"Gestion des exceptions","level":"1.4.5","depth":2,"path":"03-orm/05-gestion-des-exceptions.md","ref":"03-orm/05-gestion-des-exceptions.md","articles":[]},{"title":"Propagation des exceptions","level":"1.4.6","depth":2,"path":"03-orm/06-propagation-des-exceptions.md","ref":"03-orm/06-propagation-des-exceptions.md","articles":[]},{"title":"Travaux pratiques","level":"1.4.7","depth":2,"path":"03-orm/99-tp.md","ref":"03-orm/99-tp.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["auto-summary","github-edit"],"ignores":["_book","node_modules","sources"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"github-edit":{"repo":"DevInstitut/formation-spring-data","branch":"master"},"auto-summary":{},"highlight":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"fontsettings":{"family":"sans","size":2,"theme":"white"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"Rossi Oddet","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Formation Spring Data","gitbook":"*"},"file":{"path":"03-orm/01-spring-orm.md","mtime":"2018-05-24T06:47:38.882Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-24T06:50:44.604Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-edit/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
