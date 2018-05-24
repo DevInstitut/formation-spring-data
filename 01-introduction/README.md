@@ -18,8 +18,8 @@ Les transactions sont configurables par XML ou annotations et déléguées autom
 
 L'objectif est de pouvoir s'abstraire des exceptions spécifiques aux implémentations (par exemple SQLException ou HibernateException).
 
-Spring fournit la hiérarchie **DataAccessException**::
-* Type « Runtime » unchecked.
+Spring fournit la hiérarchie **DataAccessException** :
+* Type `Runtime` unchecked.
 * Encapsule les types d'exceptions quelque soit la technologie.
 
 Quelques exceptions::

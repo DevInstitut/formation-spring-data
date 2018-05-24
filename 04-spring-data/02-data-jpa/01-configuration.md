@@ -36,7 +36,7 @@ public class PizzaAppConfig {
 
 ```java
 @Configuration
-// Activer	Spring	Data	JPA	et	indiquer les packages où	se	trouvent	les	interfaces
+// Activer	Spring	Data	JPA	et	indiquer les packages où se	trouvent les interfaces
 @EnableJpaRepositories("fr.pizzeria.repos")
 public class PizzaAppConfig {
     @Bean public EntityManagerFactory entityManagerFactory(DataSource ds) {...}
