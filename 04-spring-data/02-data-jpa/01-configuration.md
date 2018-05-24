@@ -5,16 +5,20 @@
 ```java
 @Configuration
 public class PizzaAppConfig {
-    @Bean // Bean indispensable pour faire du JPA
+    
+    // Bean indispensable pour faire du JPA
+    @Bean
     public EntityManagerFactory entityManagerFactory(DataSource ds) {
+        
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
+        
         // (...) configuration de l'EMF
+        
         factory.afterPropertiesSet();
         return factory.getObject();
     }
 }
 ```
-<<<
 
 ## 2. Bean PlatformTransactionManager
 
@@ -39,8 +43,13 @@ public class PizzaAppConfig {
 // Activer	Spring	Data	JPA	et	indiquer les packages où se	trouvent les interfaces
 @EnableJpaRepositories("fr.pizzeria.repos")
 public class PizzaAppConfig {
-    @Bean public EntityManagerFactory entityManagerFactory(DataSource ds) {...}
+    
+    @Bean public EntityManagerFactory entityManagerFactory(DataSource ds) {
+        //...
+    }
 
-    @Bean public PlatformTransactionManager transactionManager(EntityManagerFactory emf) {...}
+    @Bean public PlatformTransactionManager transactionManager(EntityManagerFactory emf) {
+        //...
+    }
 }
 ```
