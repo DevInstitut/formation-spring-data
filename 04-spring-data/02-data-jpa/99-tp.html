@@ -605,14 +605,14 @@
 <ul>
 <li><p>Effectuer le mapping JPA de l&apos;entit&#xE9; : <em>dev.paie.entite.Avantage</em>. Si ce n&apos;est pas d&#xE9;j&#xE0; fait, transformer le champ <em>montant</em> en type BigDecimal.</p>
 </li>
-<li><p>Cr&#xE9;er une interface <em>dev.paie.repository.AvantageRepository</em> :</p>
+<li><p>Cr&#xE9;er une interface <code>dev.paie.repository.AvantageRepository</code> :</p>
 </li>
 </ul>
 <pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">AvantageRepository</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">JpaRepository</span>&lt;<span class="hljs-title">Avantage</span>, <span class="hljs-title">Integer</span>&gt; </span>{
 }
 </code></pre>
 <ul>
-<li>Compl&#xE9;ter la classe de configuration <em>dev.paie.config.ServicesConfig</em> :</li>
+<li>Compl&#xE9;ter la classe de configuration <code>dev.paie.config.ServicesConfig</code>:</li>
 </ul>
 <pre><code class="lang-java"><span class="hljs-meta">@Configuration</span>
 <span class="hljs-meta">@ComponentScan</span>({<span class="hljs-string">&quot;dev.paie.service&quot;</span>, <span class="hljs-string">&quot;dev.paie.util&quot;</span>})
@@ -625,7 +625,7 @@
 }
 </code></pre>
 <ul>
-<li>Cr&#xE9;er une classe de test <em>dev.paie.repository.AvantageRepositoryTest</em> :</li>
+<li>Cr&#xE9;er une classe de test <code>dev.paie.repository.AvantageRepositoryTest</code> :</li>
 </ul>
 <pre><code class="lang-java"><span class="hljs-comment">// TODO compl&#xE9;ter la configuration</span>
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AvantageRepositoryTest</span> </span>{
@@ -648,12 +648,12 @@
 <li><p>Ex&#xE9;cuter le test et v&#xE9;rifier qu&apos;il est passant.
 V&#xE9;rifier que la base de donn&#xE9;es est bien impact&#xE9;e (la table <em>Avantage</em> est aliment&#xE9;e).</p>
 </li>
-<li><p>Dans l&apos;interface <em>dev.paie.repository.AvantageRepository</em>, ajouter une m&#xE9;thode de recherche par code. Compl&#xE9;ter le test unitaire pour tester cette nouvelle m&#xE9;thode. </p>
+<li><p>Dans l&apos;interface <code>dev.paie.repository.AvantageRepository</code>, ajouter une m&#xE9;thode de recherche par code. Compl&#xE9;ter le test unitaire pour tester cette nouvelle m&#xE9;thode. </p>
 </li>
 </ul>
 <h2 id="mapping-jpa">Mapping JPA</h2>
 <ul>
-<li>Mapper toutes les entit&#xE9;es (sauf <em>ResultatCalculRemuneration</em>).
+<li>Mapper toutes les entit&#xE9;es (sauf <code>ResultatCalculRemuneration</code>).
 V&#xE9;rifier que la base de donn&#xE9;es est g&#xE9;n&#xE9;r&#xE9;e correctement (en ex&#xE9;cutant un test unitaire)</li>
 </ul>
 <h2 id="application-console-avec-spring-optionnel">Application Console avec Spring (optionnel)</h2>
@@ -701,7 +701,7 @@ V&#xE9;rifier que la base de donn&#xE9;es est g&#xE9;n&#xE9;r&#xE9;e correctemen
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Travaux pratiques","level":"1.5.2.5","depth":3,"previous":{"title":"JPQL via @Query","level":"1.5.2.4","depth":3,"path":"04-spring-data/02-data-jpa/04-jpql.md","ref":"04-spring-data/02-data-jpa/04-jpql.md","articles":[]},"dir":"ltr"},"config":{"plugins":["auto-summary","github-edit"],"ignores":["_book","node_modules","sources"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"github-edit":{"repo":"DevInstitut/formation-spring-data","branch":"master"},"auto-summary":{},"highlight":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"fontsettings":{"family":"sans","size":2,"theme":"white"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"Rossi Oddet","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Formation Spring Data","gitbook":"*"},"file":{"path":"04-spring-data/02-data-jpa/99-tp.md","mtime":"2018-05-24T14:03:25.495Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-24T14:06:50.697Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Travaux pratiques","level":"1.5.2.5","depth":3,"previous":{"title":"JPQL via @Query","level":"1.5.2.4","depth":3,"path":"04-spring-data/02-data-jpa/04-jpql.md","ref":"04-spring-data/02-data-jpa/04-jpql.md","articles":[]},"dir":"ltr"},"config":{"plugins":["auto-summary","github-edit"],"ignores":["_book","node_modules","sources"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"github-edit":{"repo":"DevInstitut/formation-spring-data","branch":"master"},"auto-summary":{},"highlight":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":false},"fontsettings":{"family":"sans","size":2,"theme":"white"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"Rossi Oddet","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Formation Spring Data","gitbook":"*"},"file":{"path":"04-spring-data/02-data-jpa/99-tp.md","mtime":"2018-05-24T14:09:48.183Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-24T14:12:38.781Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
