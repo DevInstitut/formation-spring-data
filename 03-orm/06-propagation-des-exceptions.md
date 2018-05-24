@@ -1,4 +1,4 @@
-# Propagation des exceptions
+# Propagation des transactions
 
 
 |Attribut|Si une transaction existe|Si pas de transaction
