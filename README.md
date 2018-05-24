@@ -33,9 +33,9 @@ Ce contenu est habituellement déroulé en 1 jour de formation.
 
 ## Licence
 
-[![Licence Creative Commons](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)
+[![Licence Creative Commons](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/3.0/deed.fr)
 
-Ce(tte) œuvre est mise à disposition selon les termes de la [Licence Creative Commons. Attribution - Partage dans les Mêmes Conditions 3.0 non transposé](http://creativecommons.org/licenses/by-sa/3.0/deed.fr).
+Ce(tte) œuvre est mise à disposition selon les termes de la [Licence Creative Commons. Attribution - Partage dans les Mêmes Conditions 3.0 non transposé](https://creativecommons.org/licenses/by-sa/3.0/deed.fr).
 
 Copyright (C) 2018 Rossi Oddet.
 
